@@ -1,6 +1,8 @@
 <template>
   <header>
-    <div class="wrapper">Hey Girl hey</div>
+    <div class="wrapper">
+      <h1>Todo List by Josh Hall</h1>
+    </div>
   </header>
 </template>
 <script setup>
