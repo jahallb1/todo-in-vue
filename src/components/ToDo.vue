@@ -1,9 +1,4 @@
 <template>
-  <header>
-    <div class="wrapper">
-      <h1>Todo List by Josh Hall</h1>
-    </div>
-  </header>
   <md-card>
       <md-card-header>
         <div class="md-title">Card without hover effect</div>
@@ -18,11 +13,17 @@
         <md-button>Action</md-button>
       </md-card-actions>
     </md-card>
-  <ToDo />
 </template>
+
 <script setup>
-import { RouterLink, RouterView } from "vue-router";
-import ToDo from "./components/ToDo.vue"
+
 </script>
+
 <style>
+.md-card {
+    width: 320px;
+    margin: 4px;
+    display: inline-block;
+    vertical-align: top;
+  }
 </style>
