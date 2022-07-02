@@ -7,6 +7,7 @@
     "preview": "vite preview --port 4173"
   },
   "dependencies": {
+    "buefy": "^0.9.21",
     "vue": "^3.2.37",
     "vue-material": "^1.0.0-beta-15",
     "vue-router": "^4.0.16"
