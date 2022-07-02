@@ -1,28 +1,12 @@
 <template>
-  <header>
-    <div class="wrapper">
-      <h1>Todo List by Josh Hall</h1>
-    </div>
-  </header>
-  <md-card>
-      <md-card-header>
-        <div class="md-title">Card without hover effect</div>
-      </md-card-header>
-
-      <md-card-content>
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio itaque ea, nostrum odio. Dolores, sed accusantium quasi non.
-      </md-card-content>
-
-      <md-card-actions>
-        <md-button>Action</md-button>
-        <md-button>Action</md-button>
-      </md-card-actions>
-    </md-card>
-  <ToDo />
+ 
+<HomeView />
+ 
+  
 </template>
 <script setup>
 import { RouterLink, RouterView } from "vue-router";
-import ToDo from "./components/ToDo.vue"
+import HomeView from "./views/HomeView.vue"
 </script>
 <style>
 </style>
